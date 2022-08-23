@@ -1,0 +1,30 @@
+<?php
+
+namespace DummyNamespace;
+
+class DummyClass
+{
+
+	public function __construct()
+	{
+
+	}
+
+	/**
+	 * static call method
+	 * @return static 
+	 */
+	public static function make()
+	{
+		return new static();
+	}
+
+	/**
+	 * execute command handler
+	 * @return void
+	 */
+    public function execute()
+    {
+       
+    }
+}
